@@ -1,0 +1,319 @@
+/*
+
+THIS IS A custom stylesheet for a landing page for plusodin.info !
+autor: 7018407@gmail.com
+MADE WITH LOVE IN RUSSIA
+
+*/
+
+
+.rounded {
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+      -ms-border-radius: 6px;
+       -o-border-radius: 6px;
+          border-radius: 6px;
+}
+
+.trans {
+  -webkit-transition: all .1s ease-in-out;
+     -moz-transition: all .1s ease-in-out;
+          transition: all .1s ease-in-out;
+ 
+}
+
+* {
+  margin:0;
+  padding:0;
+  border:none;
+  list-style:none;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+	font-family: marmelad;
+	font-size: 17px;
+	color:#111;
+}
+
+.ili {
+	margin: 0px;
+	margin-bottom: 6px;
+	padding: 0;
+	color: #444444;
+	font-weight: normal;
+	text-shadow: 0px 0px 1px rgba(0,0,0,0.3);
+	font-size: 20px;
+}
+ul {
+	width: 470px;
+	text-align: justify;
+}
+
+.fa-green {
+color: rgba(0, 235, 0, 0.87);
+text-shadow: 0px 0px 1px rgba(0,255,0,0.4);
+}
+
+.fa-yellow {
+color: rgba(255, 224, 0, 1);
+text-shadow: 0px 0px 2px rgba(255, 224, 0, 0.9);
+}
+
+.fa-red {
+color: rgba(255, 0, 0, 1);
+text-shadow: 0px 0px 1px rgba(255, 0, 0, 0.7);
+}
+
+li {
+
+}
+
+p {
+width:500px;
+text-align:justify;
+color:black;
+}
+
+
+form {
+  margin:70px auto;
+  background:#cee9f0;
+  width:347px;
+  text-align:center;
+  padding:40px;
+  padding-top:10px;
+}
+
+form > h1 {
+	color: #1b464d;
+	text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.7);
+	font-weight: 600;
+	margin-bottom: 9px;
+	padding-top: 0px;
+	margin-top: -20px;
+	font-family: 'marmelad';
+	font-size: 19px;
+}
+
+input {
+  background:#dcf3fa;
+  color:#ff7c4d;
+  display:block;
+  width:269px;
+  padding:15px;
+  margin-bottom:10px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+      -ms-border-radius: 6px;
+       -o-border-radius: 6px;
+          border-radius: 6px;
+}
+-webkit-transition: all .1s ease-in-out;
+-moz-transition: all .1s ease-in-out;
+transition: all .1s ease-in-out;
+  outline:none;
+}
+
+input:focus {
+	background:#f5fdff;
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
+}
+
+::-webkit-input-placeholder {
+   color: #444444;
+}
+
+:-moz-placeholder {
+   color: #444444; 
+}
+
+::-moz-placeholder {
+   color: #444444;
+}
+
+:-ms-input-placeholder {  
+   color: #444444;
+}
+
+button {
+	position:relative;
+	display:block;
+	margin-top:15px;
+	margin-bottom:15px;
+	padding:17px;
+	width:270px;
+	font-size:1.2em;
+	background-image: -webkit-linear-gradient(top, #EE4926, #D6472F);
+	background-image: -moz-linear-gradient(top, #EE4926, #D6472F);
+	background-image: -o-linear-gradient(top, #EE4926, #D6472F);
+	background-image: linear-gradient(to bottom, #EE4926, #D6472F);
+	color:#f4f4f4;
+	box-shadow:0px 3px 0px #C04B47;
+	cursor:pointer;
+}
+
+button:active {
+	top:3px;
+	box-shadow:none;
+}
+
+.reverse {
+	color: #fff;
+	background-color: #f8f8f8;
+}
+
+.p1 { 
+	padding-right: 1%;
+	padding-left: 1%;
+	padding-top: 1%;
+	padding-bottom: 0;
+}
+
+.p2 { 
+	padding-right: 1%;
+	padding-left: 1%;
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+
+.measure {
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 60em;
+}
+
+h1,h2,h3 {
+	font-family: 'Marmelad';
+	line-height: 1.125;
+	margin-top: 0;
+	margin-bottom: 1rem;
+	text-align: inherit;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	max-width: 500px;
+}
+ 
+header h1 {
+	margin-top: 3%;
+}
+.green { color: #444444;
+text-shadow: 0px 0px 1px rgba(0,0,0,0.3);}
+
+/*********************************************************************************************************
+
+			Обратный звонок форма
+
+*********************************************************************************************************/
+form.backcall input {
+	background: rgba(0,0,0,0);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.31);
+	color: #ff7c4d;
+	display: block;
+	width: 269px;
+	padding: 15px;
+	margin-bottom: 10px;
+	outline: none;
+	height:20px;
+}
+.backcall {
+  width:347px;
+  text-align:center;
+  padding:40px;
+  padding-left: 0px;
+  padding-top: 0px;
+  margin: 0;
+  background:0;
+}
+
+.register-title {
+width: 269px;
+  line-height: 30px;
+	margin-top: 0;
+  font-size: 19px;
+  font-weight: 500;
+  color: white;
+  color: rgba(255, 255, 255, 0.95);
+  text-align: center;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+  background: #d7604b;
+  border-radius: 3px;
+  background-image: -webkit-linear-gradient(top, #EE4926, #D6472F);
+  background-image: -moz-linear-gradient(top, #EE4926, #D6472F);
+  background-image: -o-linear-gradient(top, #EE4926, #D6472F);
+  background-image: linear-gradient(to bottom, #EE4926, #D6472F);
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.05), 0 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.05), 0 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.register {
+  margin: 20px auto 30px;
+  width: 340px;
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.register-input {
+  display: block;
+  width: 100%;
+  height: 38px;
+  margin-top: 2px;
+  font-weight: 500;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.register-button {
+  display: block;
+  width: 100%;
+  height: 42px;
+  margin-top: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #494d59;
+  text-align: center;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+  background: #fcfcfc;
+  border: 1px solid;
+  border-color: #d8d8d8 #d1d1d1 #c3c3c3;
+  border-radius: 2px;
+  cursor: pointer;
+  background-image: -webkit-linear-gradient(top, #fefefe, #eeeeee);
+  background-image: -moz-linear-gradient(top, #fefefe, #eeeeee);
+  background-image: -o-linear-gradient(top, #fefefe, #eeeeee);
+  background-image: linear-gradient(to bottom, #fefefe, #eeeeee);
+  -webkit-box-shadow: inset 0 -1px rgba(0, 0, 0, 0.03), 0 1px rgba(0, 0, 0, 0.04);
+  box-shadow: inset 0 -1px rgba(0, 0, 0, 0.03), 0 1px rgba(0, 0, 0, 0.04);
+}
+
+.register-button:active {
+  background: #eee;
+  border-color: #c3c3c3 #d1d1d1 #d8d8d8;
+  background-image: -webkit-linear-gradient(top, #eeeeee, #fcfcfc);
+  background-image: -moz-linear-gradient(top, #eeeeee, #fcfcfc);
+  background-image: -o-linear-gradient(top, #eeeeee, #fcfcfc);
+  background-image: linear-gradient(to bottom, #eeeeee, #fcfcfc);
+  -webkit-box-shadow: inset 0 1px rgba(0, 0, 0, 0.03);
+  box-shadow: inset 0 1px rgba(0, 0, 0, 0.03);
+}
+
+.register-button:focus {
+  outline: 0;
+}
+
+.timer-timer1 {
+background-image: linear-gradient(to bottom, #f20a1e, #d20b15);
+width: 537px;
+color: white;
+font-weight: bold;
+padding: 10px;
+font-size: 23px;
+margin-top:30px;                          }
